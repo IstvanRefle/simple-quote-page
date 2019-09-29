@@ -16,7 +16,6 @@ body {
   height: 100vh;
   background: url('assets/freedom.jpg') no-repeat center;
   background-size: cover;
-  color: #333;	
 }
 
 .wrapper {
@@ -31,6 +30,19 @@ body {
 .author {
   font-family: 'Crimson Text', serif;
   font-style: italic;
+}
+
+footer {
+		text-align: center;
+}
+.lang-selector {
+  font-size: 1vh;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
 }
 
 @media only screen and (max-width: 768px) {
